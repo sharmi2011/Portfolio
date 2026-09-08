@@ -10,20 +10,20 @@
 
 const projects = [
   {
-    title: "🏥 Healthcare Cost & Patient Treatment Analysis",
+    title: "🏦 Banking Customer Churn Analysis",
 
     description:
-      "Analyzed healthcare patient data to understand billing patterns, patient distribution, admission types, insurance-provider billing, and length of stay.",
+      "Analyzed banking customer data to identify churn patterns across geography, age, activity status, gender, and number of products.",
 
-    tools: ["Python", "SQL", "Excel", "Power BI"],
+    tools: ["Python", "Pandas", "SQL", "MySQL", "Power BI", "DAX"],
 
-    image: "assets/Dashboard.png",
+    image: "assets/Bank_Dashboard.png",
 
     projectLink:
-      "https://github.com/sharmi2011/healthcare-cost-patient-treatment-analysis",
+      "https://github.com/sharmi2011/banking-customer-churn-analysis",
 
     githubLink:
-      "https://github.com/sharmi2011/healthcare-cost-patient-treatment-analysis",
+      "https://github.com/sharmi2011/banking-customer-churn-analysis",
 
     status: "completed",
   },
@@ -34,7 +34,7 @@ const projects = [
     description:
       "Analyzed e-commerce return patterns, return reasons, and profitability to identify high-return categories and provide business recommendations.",
 
-    tools: ["Python", "SQL", "Power BI"],
+    tools: ["Python", "Pandas", "SQL", "Power BI", "Power Query", "DAX"],
 
     image: "assets/return_Dashboard.png",
 
@@ -48,20 +48,22 @@ const projects = [
   },
 
   {
-    title: "📊 Healthcare Readmission Risk Analysis",
+    title: "🏥 Healthcare Cost & Patient Treatment Analysis",
 
     description:
-      "Analyzing hospital readmission patterns to identify high-risk patient groups, diagnosis categories, and factors associated with readmission using SQL and MySQL.",
+      "Analyzed healthcare patient data to understand billing patterns, patient demographics, admission types, insurance-provider trends, and length of stay.",
 
-    tools: ["SQL", "MySQL"],
+    tools: ["Python", "Pandas", "SQL", "Excel", "Power BI"],
 
-    image: "",
+    image: "assets/Dashboard.png",
 
-    projectLink: "",
+    projectLink:
+      "https://github.com/sharmi2011/healthcare-cost-patient-treatment-analysis",
 
-    githubLink: "",
+    githubLink:
+      "https://github.com/sharmi2011/healthcare-cost-patient-treatment-analysis",
 
-    status: "coming-soon",
+    status: "completed",
   },
 ];
 
@@ -75,29 +77,23 @@ const skillCategories = [
     title: "Data Analysis",
     skills: [
       "SQL",
-      "Excel",
       "Python",
       "Pandas",
       "NumPy",
+      "Data Cleaning",
+      "Exploratory Data Analysis",
     ],
   },
 
   {
-    title: "Business Intelligence",
+    title: "BI & Reporting",
     skills: [
       "Power BI",
+      "Excel",
       "DAX",
-      "Data Visualization",
+      "Power Query",
       "Dashboard Development",
-    ],
-  },
-
-  {
-    title: "Data Preparation",
-    skills: [
-      "Data Cleaning",
-      "Data Transformation",
-      "Exploratory Data Analysis",
+      "KPI Analysis",
     ],
   },
 
@@ -111,7 +107,6 @@ const skillCategories = [
     ],
   },
 ];
-
 
 /* ======================================================
    CERTIFICATIONS
